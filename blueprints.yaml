@@ -1,0 +1,67 @@
+name: TecArt Jira Login
+version: 0.1.0
+description: Login as Jira User via Jira basic authentication
+icon: sign-in
+author:
+    name: Christiana Holland-Jobb
+    email: christiana.holland-jobb@tecart.de
+homepage: https://www.tecart.de
+keywords: grav, plugin, login, jira, atlassian, curl, authentication
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.7.7' }
+  - { name: login, version: '>=3.4.1' }
+  - { name: admin, version: '>=1.10.6' }
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Status
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    jira_url:
+      type: text
+      label: Jira URL
+      placeholder: e.g. https://jira.tecart.de
+      help: URL to Jira ssystem that contains the users
+      validate:
+        type: text
+        required: true
+    jira_api:
+      type: text
+      label: Jira Api Path
+      placeholder: e.g. rest/api/2/issue/createmeta";
+      validate:
+        type: text
+        required: true
+    save_as_account:
+      type: toggle
+      label: Save User in Grav
+      default: 0
+      options:
+        0: Don't Save
+        1: Save
+      validate:
+        type: bool
+    admin_users:
+      type: text
+      label: Jira usernames that should be admins - comma separated
+      placeholder: e.g. frank-panser, tecart, max-muster
+      help: This users will get admin rights in admin panel
+      validate:
+        type: text
+    admin_language:
+      type: toggle
+      label: Admin language
+      default: de
+      options:
+        de: Deutsch
+        en: Englisch

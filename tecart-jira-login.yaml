@@ -1,0 +1,6 @@
+enabled: false
+save_as_account: false
+jira_url: 'https://jira.tecart.de'
+jira_api: rest/api/2/issue/createmeta
+admin_language: en
+admin_users: 'frank-panser, tecart,christiana-holland-jobb'
