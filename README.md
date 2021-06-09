@@ -1,5 +1,5 @@
 [![TecArt GmbH](tecart-logo-rgba_h120.png)](https://www.tecart.de)
-#TecArt Jira Login Plugin
+# TecArt Jira Login Plugin
 
 The **TecArt Jira Login** Plugin for [Grav CMS](http://github.com/getgrav/grav) to provide a Atlassian Jira basic authentication via cURL on your [Admin plugin](https://github.com/getgrav/grav-plugin-admin).
 
