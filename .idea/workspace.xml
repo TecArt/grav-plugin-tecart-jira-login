@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f1cb69-e179-4cea-b9de-3b0f86027f48" name="Default Changelist" comment="" />
+    <list default="true" id="e5f1cb69-e179-4cea-b9de-3b0f86027f48" name="Default Changelist" comment="settings&#10;">
+      <change afterPath="$PROJECT_DIR$/admin/themes/grav/templates/forgot.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tecart-jira-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/tecart-jira-login.php" afterDir="false" />
+    </list>
+    <list id="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" name="settings" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="3" end1="4" start2="3" end2="10" changelist="e5f1cb69-e179-4cea-b9de-3b0f86027f48" />
+        <range start1="25" end1="26" start2="31" end2="32" changelist="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" />
+        <range start1="33" end1="33" start2="39" end2="40" changelist="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" />
+        <range start1="38" end1="38" start2="45" end2="54" changelist="e5f1cb69-e179-4cea-b9de-3b0f86027f48" />
+        <range start1="39" end1="39" start2="55" end2="56" changelist="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" />
+        <range start1="43" end1="43" start2="60" end2="64" changelist="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="1tiNABhKoeUmKMIqom6dIcIH10u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../website/www-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -31,15 +52,30 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e5f1cb69-e179-4cea-b9de-3b0f86027f48" name="Default Changelist" comment="" />
+      <changelist id="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" name="settings" comment="" />
       <created>1623247803638</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623247803638</updated>
       <workItem from="1623247804888" duration="492000" />
+      <workItem from="1623248764148" duration="335000" />
+      <workItem from="1626944219544" duration="1240000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1623249030076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623249030076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

@@ -14,12 +14,13 @@ class TecartJiraLoginPlugin extends Plugin
     public static function getSubscribedEvents(){
         return [
             'onPluginsInitialized' => [
-                ['onPluginsInitialized', 0]
+                ['onPluginsInitialized', 10]
             ],
             'onUserLoginAuthenticate'   => ['userLoginAuthenticate', 1000],
             'onUserLoginFailure'        => ['userLoginFailure', 0],
             'onUserLogin'               => ['userLogin', 0],
             'onUserLogout'              => ['userLogout', 0],
+            'onAdminTwigTemplatePaths' => ['onAdminTwigTemplatePaths', 0]
         ];
     }
 
@@ -33,6 +34,12 @@ class TecartJiraLoginPlugin extends Plugin
         if (!$this->grav['config']->get('plugins.login.enabled')) {
             throw new \RuntimeException('The Login plugin needs to be installed and enabled');
         }
+    }
+
+    public function onAdminTwigTemplatePaths($event) {
+        $paths = $event['paths'];
+        $paths[] = __DIR__ . '/admin/themes/grav/templates';
+        $event['paths'] = $paths;
     }
 
     public function userLoginAuthenticate(UserLoginEvent $event){
