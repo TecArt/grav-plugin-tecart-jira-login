@@ -46,7 +46,7 @@ save_as_account: false                                            - Allowed user
 jira_url: https://jira.tecart.de                                  - URL to your Jira system
 jira_api: rest/api/2/issue/createmeta                             - Jira API path - if changes are required
 admin_language: de                                                - Admin Panel language when Jira user logged in
-admin_users: frank-panser, soeren-mueller,christiana-holland-jobb - Jira User that should have admin rights in admin panel, add comma separated
+admin_users: christiana-holland-jobb                              - Jira User that should have admin rights in admin panel, add comma separated
 ```
 
 Note that if you configure this plugin with the [Admin plugin](https://github.com/getgrav/grav-plugin-admin), a file with your configuration named tecart-jira-login.yaml will be saved in the `user/config/plugins/` folder once the configuration is saved in the Admin.

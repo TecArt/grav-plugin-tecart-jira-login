@@ -189,7 +189,6 @@ class TecartJiraLoginPlugin extends Plugin
         }
 
         // Set user
-        //$grav_user['fullname']  = 'Jira User';
         $grav_user['fullname']  = $username;        //is shown in admin panel
         $grav_user['email']     = 'jira@tecart.de';
         $grav_user['language']  = $admin_language;

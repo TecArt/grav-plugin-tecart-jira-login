@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f1cb69-e179-4cea-b9de-3b0f86027f48" name="Default Changelist" comment="settings&#10;">
-      <change afterPath="$PROJECT_DIR$/admin/themes/grav/templates/forgot.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tecart-jira-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/tecart-jira-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tecart-jira-login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tecart-jira-login.yaml" afterDir="false" />
     </list>
-    <list id="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" name="settings" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list id="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" name="settings" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,20 +20,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="3" end1="4" start2="3" end2="10" changelist="e5f1cb69-e179-4cea-b9de-3b0f86027f48" />
-        <range start1="25" end1="26" start2="31" end2="32" changelist="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" />
-        <range start1="33" end1="33" start2="39" end2="40" changelist="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" />
-        <range start1="38" end1="38" start2="45" end2="54" changelist="e5f1cb69-e179-4cea-b9de-3b0f86027f48" />
-        <range start1="39" end1="39" start2="55" end2="56" changelist="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" />
-        <range start1="43" end1="43" start2="60" end2="64" changelist="4ca07db8-9b3b-4bfc-98a6-4a9bb9fe99a3" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectId" id="1tiNABhKoeUmKMIqom6dIcIH10u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
