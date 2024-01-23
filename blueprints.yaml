@@ -1,10 +1,10 @@
 name: TecArt Jira Login
-version: 0.1.0
+version: 0.1.1
 description: Login as Jira User via Jira basic authentication
 icon: sign-in
 author:
-    name: Christiana Holland-Jobb
-    email: christiana.holland-jobb@tecart.de
+  name: TecArt GmbH - https://www.tecart.de | Christiana Holland-Jobb
+  email: christiana.holland-jobb@tecart.de
 homepage: https://www.tecart.de
 keywords: grav, plugin, login, jira, atlassian, curl, authentication
 license: MIT
